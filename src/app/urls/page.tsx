@@ -34,7 +34,8 @@ export default async function UrlList() {
         <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600">
             <div className="p-10 bg-gray-100 rounded-lg shadow-2xl max-w-4xl w-full">
                 <h1 className="text-3xl font-bold mb-6 text-center text-gray-700 ">All Short Urls</h1>
-                <a href="/" className="text-white font-medium rounded-lg text-md px-2 py-2 dark:bg-green-600 dark:hover:bg-green-700">Go To Home</a>
+                {/* <a href="/" className="text-white font-medium rounded-lg text-md px-2 py-2 dark:bg-green-600 dark:hover:bg-green-700">Go To Home</a> */}
+                <Link href='/' className="btn btn-primary text-sm">Go to Home</Link>
 
                 <div className="overflow-x-auto">
                     <table className="table table-zebra w-full" >
