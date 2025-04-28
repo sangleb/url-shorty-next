@@ -11,6 +11,7 @@
   "dependencies": {
     "@types/mongoose": "^5.11.97",
     "daisyui": "^5.0.22",
+    "mongodb": "^6.15.0",
     "mongoose": "^8.13.2",
     "next": "15.3.0",
     "postcss": "^8.5.3",
@@ -24,6 +25,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/shortid": "^2.2.0",
     "eslint": "^9",
     "eslint-config-next": "15.3.0",
     "tailwindcss": "^4.1.4",
